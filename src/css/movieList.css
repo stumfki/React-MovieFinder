@@ -1,0 +1,277 @@
+
+
+.movieListCont {
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+}
+
+
+.movie {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+    
+    
+
+}
+
+.movieInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.movieName p,h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.movieName h1 {
+    
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.movieName img {
+   
+    width: 25px;
+    height: 15px;
+}
+
+
+.movieDuration {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #111827;
+}
+
+.movieDuration p {
+   margin-right: 10px;
+   font-size: 11px;
+}
+.movieButton {
+    width: 45%;
+    display: flex;
+    justify-content: start;
+}
+
+.movieButton p{
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+   
+}
+.movieDuration button {
+    width: 20px;
+    height: 20px;
+  
+    border: none;
+    background-color: white;
+    color: gray;
+    background-image: url('../img/button.svg');
+    background-size: cover;
+    transition-duration: 0.4s;
+    
+}
+
+.movieDuration button:hover {
+    transform: scale(1.2);
+}
+.movieDescription {
+    width: 90%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+
+
+
+color: #6B7280;
+}
+#poster {
+    width: 140px;
+    height: 250px;
+ 
+    margin-right: 5%;
+}
+
+.border {
+    margin-bottom: 1px solid red;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+  
+    .movieName h1 {
+      width: 180px;
+      color: black;
+      font-size: 12px;
+      font-weight: 700;
+  }
+  .movieDuration p {
+   
+font-size: 9px;
+line-height: 20px;
+/* identical to box height, or 167% */
+  }
+  #poster {
+    width: 120px;
+    height: 200px;
+ 
+    margin-right: 5%;
+}
+.movieDescription p {
+    font-size: 9px;
+}
+
+
+}
+@media only screen and (min-width: 600px) {
+  
+  
+    .movieName h1 {
+      width: 200px;
+      color: black;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  .movieDuration p {
+   
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+
+}
+
+
+
+  }
+
+  @media only screen and (min-width: 940px) {
+  
+  
+    .movieName h1 {
+      width: 150px;
+      color: black;
+      font-size: 14px;
+      font-weight: 700;
+  }
+
+  .movieDuration p{
+   
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    
+    color: #111827;
+    }
+
+    .movieDescription p {
+        font-size: 12px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 310px) {
+  
+  
+    .movieName h1 {
+      width: 180px;
+      color: black;
+      font-size: 9px;
+      font-weight: 700;
+  }
+  .movieDuration p {
+   
+font-size: 10px;
+line-height: 10px;
+/* identical to box height, or 167% */
+  }
+  #poster {
+    width: 80px;
+    height: 180px;
+ 
+    margin-right: 5%;
+}
+.movieDescription p {
+    font-size: 8px;
+}
+
+.movieDuration button {
+    width: 5px;
+    height: 12px;
+  
+    border: none;
+    background-color: white;
+    color: gray;
+    background-image: url('../img/button.svg');
+    background-size: cover;
+    transition-duration: 0.4s;
+    
+}
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  
+    .movieName h1 {
+      width: 400px;
+      color: black;
+      font-size: 22px;
+      font-weight: 700;
+  }
+
+  .movieDuration p{
+   
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    
+    color: #111827;
+    }
+
+    .movieDescription p {
+        font-size: 16px;
+    }
+
+    
+
+
+  }
+
