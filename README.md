@@ -1,5 +1,9 @@
 #**React Movie Finder Documentation**
 
+**Preview of the app:**
+
+https://moviefinderdindobrnjic.netlify.app/
+
 **Introduction**
 
 This document provides an overview of the React Movie Finder, a web application built using React.js. The application allows users to search for their favorite movies and add them to their watchlist.
