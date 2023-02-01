@@ -43,4 +43,4 @@ To view your watchlist, click on the "Watchlist" tab. Your watchlist will displa
 
 **Conclusion**
 
-The React Movie Finder is a simple and user-friendly web application that allows you to search for your favorite movies and add them to your watchlist. With its easy-to-use interface, you can quickly find the movies you want to watch and keep track of the ones you want to see in the future.
+The React-Movie Finder is a simple and user-friendly web application that allows you to search for your favorite movies and add them to your watchlist. With its easy-to-use interface, you can quickly find the movies you want to watch and keep track of the ones you want to see in the future.
