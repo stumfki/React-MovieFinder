@@ -15,16 +15,16 @@ Before you begin using the React Movie Finder, you will need to have the followi
 
 **Getting Started**
 
-1.Clone the React Movie Finder repository to your local machine by running the following command in your terminal:
+1. Clone the React Movie Finder repository to your local machine by running the following command in your terminal:
 -git clone https://github.com/stumfki/react-movie-finder.git
 
-2.Change into the project directory by running the following command:
+2. Change into the project directory by running the following command:
 -cd react-movie-finder
 
-3.Install the necessary packages by running the following command:
+3. Install the necessary packages by running the following command:
 -npm install
 
-4.Start the development server by running the following command:
+4. Start the development server by running the following command:
 -npm start
 
 5.Open your web browser and navigate to http://localhost:3000 to access the React Movie Finder.
